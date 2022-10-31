@@ -1,0 +1,153 @@
+* {
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  }
+  body {
+    -webkit-print-color-adjust: exact;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .col-no {
+    display: flex;
+    flex-direction: column;
+    flex: none;
+  }
+  .ju-s {
+    justify-content: space-between;
+  }
+  .ju-c {
+    justify-content: center;
+  }
+  .al-c {
+    align-items: center;
+  }
+  .item {
+    display: flex;
+    flex: 1;
+  }
+  
+  .item-no {
+    display: flex;
+    flex: none;
+  }
+  .right_px {
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* 换行 */
+  .flex {
+    
+    flex-wrap: wrap;
+  }
+  p {
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+      'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+    font-size: 14px;
+    /* font-weight: 700; */
+    margin: 0;
+    padding: 0;
+    
+    /* text-shadow: 2px 2px ; */
+
+  }
+  li {
+    list-style-type: none;
+  }
+  .title_top {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .hand {
+    cursor: pointer;
+  }
+ 
+  .box-card {
+    margin: 15px;
+  }
+  /* 灰色 */
+  .grays {
+    color: rgb(140, 140, 140);
+  }
+  /* 滚动 */
+  .gundong {
+    overflow: hidden;
+    /* width: 100%; */
+    margin: 10px;
+    height: 200px;
+    margin-top: 20px;
+  }
+  
+  .gundong_2 {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .reds {
+    color: red;
+  }
+  .greens {
+    color: green;
+  }
+  .gray {
+    color: gray;
+  }
+  .skyblye {
+    color: #438DF7;
+  }
+  .hand {
+    cursor: pointer;
+  }
+
+  /* 盒子的样式 */
+  .BoxModel {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
+  }
+
+  /* 盒子阴影 */
+.Shadow {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+/* 深层次盒子阴影 */
+.Shadow2 {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+/* 浅盒子阴影 */
+.Shadow3 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.titles {
+  font-size: 16px;
+  margin: 10px;
+  font-weight: 700;
+}
+
+/* 单行文本 */
+.omit{
+  width: 80%;
+  height: 20px;
+  white-space: nowrap;       
+  overflow: hidden;          
+  text-overflow: ellipsis;   
+}
+/* 文字缩进 */
+.retract {
+  text-indent: 0.5rem;
+  line-height: 22px;
+}
+ 
+
+
+
+
+  
